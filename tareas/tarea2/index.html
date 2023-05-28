@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Tarea clase 6</title>
+</head>
+<body>
+    <form id="calcular-salarios">
+        <label for="agregar-integrantes">Agregar Integrantes</label>
+        <button type="submit" id="agregar-integrantes">+</button>
+        <label for="eliminar-integrantes">Eliminar Integrantes</label>
+        <button type="submit" id="eliminar-integrantes">-</button>
+        
+        <div id="integrantes">
+        </div>
+
+        <button type="button" id="calcular" class="oculto">Calcular</button>
+        
+        <div id="resultados-calculo" class="oculto">
+            <p>El mayor salario es de: $<strong id="salario-mayor"></strong></p>
+            <p>El menor salario es de: $<strong id="salario-menor"></strong></p>
+            <p>El salario promedio es de: $<strong id="salario-promedio"></strong></p>
+            <p>El salario mensual promedio es de: $<strong id="salario-mensual-promedio"></strong></p>
+        </div>
+        <button type="reset" id="boton-reset">Reiniciar</button>
+    </form>
+    
+    <script src="calculos.js"></script>
+    <script src="validacion.js"></script>
+    <script src="tarea2.js"></script>
+    <script src="pruebas.js"></script>
+
+</body>
+</html>

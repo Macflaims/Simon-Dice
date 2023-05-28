@@ -1,0 +1,17 @@
+.oculto {
+    display: none;
+}
+
+.error{
+    border: solid 2px red;
+}
+
+.mensaje-error{
+    color: red;
+    margin-left: 8px;
+}
+
+#boton-siguiente{
+display: block;
+margin: 5px 0px;
+}
