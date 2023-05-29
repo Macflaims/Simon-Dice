@@ -60,14 +60,14 @@ function manejarErrores(errores, elemento){
     const error= errores[key]
     
     if(error){
-        elemento.className="error";
+        elemento.classList.add("error");
         const mensajeError = document.createElement("label");
         mensajeError.textContent = error;
-        mensajeError.className= "mensaje-error";
+        mensajeError.classList.add("mensaje-error");
         elemento.insertAdjacentElement('afterend', mensajeError);
     }
     else{
-        return elemento.className="";
+        return elemento.classList.remove("error");
     }
    
 }

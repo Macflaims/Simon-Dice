@@ -41,7 +41,7 @@ function crearIntegrante(indice){
 }
 
 function mostrarBotonCalcular(){
-    document.querySelector("#calcular").className = "";
+    document.querySelector("#calcular").classList.remove("oculto");
 }
 
 function reset(){
@@ -62,7 +62,7 @@ function eliminarIntegrantes(){
 }
 
 function ocultarBotonCalcular(){
-    document.querySelector("#calcular").className = "oculto";
+    document.querySelector("#calcular").classList.add("oculto");
 }
 
 function ocultarCalculos(){

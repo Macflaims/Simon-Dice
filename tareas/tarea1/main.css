@@ -15,3 +15,9 @@
 display: block;
 margin: 5px 0px;
 }
+
+#calcular-edades{
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
